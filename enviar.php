@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 $name = $_POST['name'];
 $email = $_POST['email'];
 $subject = $_POST['subject'];
@@ -21,5 +22,7 @@ $asunto = 'Mensaje de prueba';
 mail($para, $asunto, utf8_decode($message), $header);
 
 header("Location:index.html");
+
+echo 'mensaje enviado';
 
 ?>
