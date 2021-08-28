@@ -2202,11 +2202,123 @@ input, select, textarea {
 			display: block;
 			height: 20em;
 			border-radius: 0;
+			border: solid 1px;
+			border-color: white;
+			/* background-color: #bebeea; */
 		}
 
 			.image.main img {
 				border-radius: 0;
 			}
+
+/* Floating image*/
+
+	.burbujas div {
+		/* background: #00a2b1; */
+		border-radius: 70%;
+		position: absolute;
+		bottom: 0;
+		animation: animar_burbujas 4s linear infinite;
+	}
+
+	.burbujas div:nth-child(1) {
+		width:75px;
+		height: 73px;
+		left: 7%;
+		animation-duration: 5s;
+	}
+
+	.burbujas div:nth-child(2) {
+		width:38px;
+		height: 40px;
+		left: 27%;
+		animation-duration: 9s;
+	}
+
+	.burbujas div:nth-child(3) {
+		width:58px;
+		height: 60px;
+		left: 47%;
+		animation-duration: 6s;
+	}
+
+	.burbujas div:nth-child(4) {
+		width:30px;
+		height: 32px;
+		left: 67%;
+		animation-duration: 10s;
+	}
+
+	.burbujas div:nth-child(5) {
+		width:55px;
+		height: 53px;
+		left: 87%;
+		animation-duration: 4s;
+	}
+
+	.burbujas div:nth-child(6) {
+		width:51px;
+		height: 53px;
+		left: 80%;
+		animation-duration: 5s;
+	}
+
+	.burbujas div:nth-child(7) {
+		width:58px;
+		height: 56px;
+		left: 77%;
+		animation-duration: 4s;
+	}
+
+	.burbujas div:nth-child(8) {
+		width:55px;
+		height: 53px;
+		left: 45%;
+		animation-duration: 4s;
+	}
+
+	.burbujas div:nth-child(9) {
+		width:75px;
+		height: 73px;
+		left: 24%;
+		animation-duration: 6s;
+	}
+
+	.burbujas div:nth-child(10) {
+		width:65px;
+		height: 63px;
+		left: 15%;
+		animation-duration: 6s;
+	}
+
+	@keyframes animar_burbujas {
+		0% {
+			width: 0;
+			height: 0;
+		}
+
+		3% {
+			width: 20px;
+			height: 20px;
+		}
+
+		10% {
+			/* opacity: 0.2; */
+		}
+
+		50% {
+			/* opacity: 0.1; */
+			transform: rotate(50deg);
+			margin-left: 20px;
+		}
+
+		100% {
+			transform: rotate(-50deg);
+			bottom: 60vh;
+			margin-left: 5x;
+			/* background: aqua; */
+		}
+	}
 
 /* List */
 
