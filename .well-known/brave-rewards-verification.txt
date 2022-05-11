@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: portafolioedel.netlify.app
+Token: ad50349718708f61aceac9e918629d0196d12bddea11acb9b9d50a29a286a97e
